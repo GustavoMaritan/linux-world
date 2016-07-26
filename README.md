@@ -2,6 +2,8 @@
 
 Samples, scripts and guides to learn and prepare to linux certifications.
 
+
+
 ## For what is this repository?
 
 This is a repository to store linux scripts, tutorials and samples about linux system administration.
