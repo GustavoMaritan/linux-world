@@ -11,7 +11,9 @@ All services and users inherit this configuration and some users or services can
 You can see some configuration options in the table below
 
 |locale.conf options|
+|---|
 | OPTION | Description |
+|---|---|
 | `LANG` | System locale default value |
 | `LC_COLLATE` | Change how functions compare strings |
 | `LC_NUMERIC` | Change how numbers are print |
