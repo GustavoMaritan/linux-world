@@ -12,6 +12,7 @@ You can see some configuration options in the table below
 
 |locale.conf options|
 |---|
+
 | OPTION | Description |
 |---|---|
 | `LANG` | System locale default value |
