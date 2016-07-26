@@ -39,5 +39,14 @@ A list of commands is show below:
 | COMMAND | Description |
 |---|---|
 | `localectl status` | List current settings |
-| `localectl set-locale [localectl option]=[value]` | Change a localectl.conf variable value. You can use this to configure all 
+| `localectl set-locale [localectl option]=[value]` | Change a localectl.conf variable value. You can use this to configure all options avaliable in locale.conf file
+
+Here a sample to set locale configuration
+
+```
+localectl set-locale LANG=en_AU
+```
+
+### Changing keymap
+
 
