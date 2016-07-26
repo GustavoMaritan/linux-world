@@ -3,6 +3,7 @@
 System locale: specifies the language of system services and graphical interfaces
 Keyboard layout: specifies the layout used in text console and graphical interfaces
 <br>
+<br>
 
 ## How to change the system locale
 
