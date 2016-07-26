@@ -6,6 +6,7 @@ Keyboard layout: specifies the layout used in text console and graphical interfa
 <br>
 
 ## How to change the system locale
+<br>
 
 ### Editing /etc/locale.conf
 
