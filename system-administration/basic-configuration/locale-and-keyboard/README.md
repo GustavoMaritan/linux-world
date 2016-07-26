@@ -6,12 +6,11 @@ Keyboard layout: specifies the layout used in text console and graphical interfa
 
 ## How to change the system locale
 
+### Editing /etc/locale.conf
+
 You can edit /etc/locale.conf file. This file is read at boot by systemd daemon.
 All services and users inherit this configuration and some users or services can override them.
 You can see some configuration options in the table below
-
-|locale.conf options|
-|---|
 
 | OPTION | Description |
 |---|---|
@@ -30,12 +29,15 @@ LC_MESSAGES=C
 
 In this sample system language is defined as Portuguese (Brasil) and system messages in English.
 
+### Using localectl command
+
 You can use the localectl command to get and set system locale and keyboard layout. 
 A list of commands is show below:
 
 |localectl commands|
-| COMMAND | Description |
-| `localectl status` | List current settings |
-| `localectl set-locale [localectl option]=[value]` | Change a localectl.conf variable value. You can use this to configure all option from localectl.conf |
 
+| COMMAND | Description |
+|---|---|
+| `localectl status` | List current settings |
+| `localectl set-locale [localectl option]=[value]` | Change a localectl.conf variable value. You can use this to configure all 
 
